@@ -1,5 +1,5 @@
 # ScCSVTool
-This tool can decompress and compress (yet to be implemented) CSV files from Supercell game APKs. These files are stored as compressed in the app and need to be decompressed for editing. In future I plan to implement functionalities to compress and decompress .SC files (game textures) also.
+This tool can decompress and compress (yet to be implemented) CSV files from Supercell game APKs. These files are sometimes stored as compressed in the app and need to be decompressed for editing. In future I plan to implement functionalities to compress and decompress .SC files (game textures) also.
 # For any help, you can contact me on discord Pain#5055
 # How to use
 # Prerequisites
