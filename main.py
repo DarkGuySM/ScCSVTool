@@ -10,11 +10,7 @@ folders=["Temp","In_compressed_csv","Out_decompressed_csv","In_decompressed_csv"
 
 
 
-def clear():
-    if os.name=="nt":
-        os.system("cls")
-    else:
-        os.system("clear")
+
 
 
 
@@ -31,6 +27,7 @@ def Remove_junk():
 def DecompressCSV(filename):
     with open(filename, 'rb') as f:
         hexdata = f.read().hex()
+        f.close()
         
     fixedhexdata=hexdata[:16]+"00"*4+hexdata[16:]
         
@@ -43,12 +40,16 @@ def DecompressCSV(filename):
             fout.write(
                 binascii.unhexlify(''.join(line.split()))
             )
+        f.close()
+        fout.close()
     
     with lzma.open("temp.csv") as f:
         file_content = f.read()
+        f.close()
     
     with open (filename,"wb") as f:
         f.write(file_content)
+        f.close()
     
     Remove_junk()
     
@@ -68,7 +69,7 @@ def CompressCSV(filename):
 
 
 
-clear()
+os.system("cls||clear")
 
 
 
