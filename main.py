@@ -6,7 +6,7 @@ import glob
 
 
 
-
+folders=["Temp","In_compressed_csv","Out_decompressed_csv","In_decompressed_csv","Out_compressed_csv"]
 
 
 
@@ -56,7 +56,7 @@ def DecompressCSV(filename):
     
 
     
-    
+# To do. Create function for compress CSV.    
 def CompressCSV(filename):
     pass
     
@@ -69,7 +69,7 @@ def CompressCSV(filename):
 
 
 clear()
-folders=["Temp","In_compressed_csv","Out_decompressed_csv","In_decompressed_csv","Out_compressed_csv"]
+
 
 
 
