@@ -10,7 +10,7 @@ This tool can decompress and compress (yet to be implemented) CSV files from Sup
 Download the script from this link `https://github.com/DarkGuySM/ScCSVTool/archive/refs/heads/main.zip` and extract.
 
 * Step-2
-Run this command in the script main directory `"pip3 install -r requirements.txt"` in windows command prompt or open Pydroid app's terminal section and change directory to the script's root directory and run same command.
+Run this command `"pip3 install lzma"` in windows command prompt or open Pydroid app's terminal section and run same command.
 
 * Step-3
 Run "python main.py" in cmd or in Pydroid app, open main.py and click play icon.
