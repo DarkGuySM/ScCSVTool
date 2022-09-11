@@ -6,14 +6,14 @@ This tool can decompress and compress (yet to be implemented) CSV files from Sup
 1) For windows download and install python from official website.
 2) For Android, you can use Pydroid app from here `https://play.google.com/store/apps/details?id=ru.iiec.pydroid3`
 
-*Step-1
+* Step-1
 Download the script from this link `https://github.com/DarkGuySM/ScCSVTool/archive/refs/heads/main.zip` and extract.
 
-*Step-2
+* Step-2
 Run this command in the script main directory `"pip3 install -r requirements.txt"` in windows command prompt or open Pydroid app's terminal section and change directory to the script's root directory and run same command.
 
-*Step-3
+* Step-3
 Run "python main.py" in cmd or in Pydroid app, open main.py and click play icon.
 
-*Step-4
+* Step-4
 After this, all necessary folders will be created for you if it doesn't already exist. Then just put files in required folder and follow script instructions.
