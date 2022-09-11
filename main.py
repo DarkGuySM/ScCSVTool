@@ -10,7 +10,6 @@ import glob
 
 
 
-
 def clear():
     if os.name=="nt":
         os.system("cls")
@@ -69,11 +68,6 @@ def CompressCSV(filename):
 
 
 
-
-
-
-
-
 clear()
 folders=["Temp","In_compressed_csv","Out_decompressed_csv","In_decompressed_csv","Out_compressed_csv"]
 
@@ -108,12 +102,6 @@ else:
     out_decompressed_dir=os.getcwd()+"/"+folders[2]+"/"
     in_decompressed_dir= os.getcwd()+"/"+folders[3]+"/"
     out_compressed_dir= os.getcwd()+"/"+folders[4]+"/"
-
-
-
-
-
-    
 
 
 
